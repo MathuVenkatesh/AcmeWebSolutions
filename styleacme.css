@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+.bg-image {
+  background: rgba(126, 125, 125)
+    url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  z-index: -2;
+  position: absolute;
+  display: block;
+  opacity: 0.2;
+}
+.headcontent {
+  color: white;
+  z-index: 1;
+  position: relative;
+  top: 100px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.readmore {
+  height: 50px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: rgb(138, 133, 133);
+  color: white;
+  font-size: 18px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+.section1 {
+  background-color: white;
+  position: relative;
+  top: 250px;
+  width: 100%;
+  height: 300px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.section1div {
+  max-width: 70%;
+  height: 300px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.section1p {
+  display: grid;
+  grid: auto/auto auto;
+  grid-gap: 30px;
+}
+
+#p1,
+#p2 {
+  padding: 30px;
+}
+
+.section2 {
+  margin-top: 50px;
+  position: relative;
+  height: 550px;
+  width: 100%;
+  top: 250px;
+}
+.sec2images {
+  height: 200px;
+  width: 100%;
+}
+
+.sec2div {
+  height: auto;
+  width: 60%;
+  display: grid;
+  grid: auto auto/auto auto auto;
+  margin: auto;
+  grid-gap: 20px;
+}
+
+.web {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  word-wrap: break-word;
+
+  margin: 10px;
+  background-color: white;
+}
+#sec2p {
+  padding: 15px;
+  line-height: 1.2;
+}
+
+.section3 {
+  height: 180px;
+  width: 100%;
+
+  position: relative;
+  top: 260px;
+  background-color: white;
+}
+.sec3div {
+  height: 50px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+#sec3p {
+  height: 300px;
+  width: 70%;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+/*.section4{
+  height: 300px;
+  width: 100%;
+  border: 2px solid blue;
+  position: relative;
+  top:260px;
+  background-color: white;
+
+}*/
+
+.section4 {
+  height: 230px;
+  width: 100%;
+  position: relative;
+  top: 259px;
+  box-sizing: border-box;
+  text-align: center;
+  display: grid;
+  grid: auto/auto auto;
+}
+
+.contact {
+  height: 230px;
+  width: 100%;
+  background: #2690d4;
+  box-sizing: border-box;
+}
+.about {
+  height: 230px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#contact_us {
+  text-align: center;
+  color: white;
+}
+#sec4p {
+  height: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+#sec4h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: 239px;
+  box-sizing: border-box;
+}
+
+.footdiv {
+  padding-top: 20px;
+  text-align: center;
+  display: grid;
+  grid: auto/auto auto;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+
+  .section1 {
+    background-color: white;
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: auto;
+  }
+
+  .section1div {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+
+  .web {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.projectby {
+  color: aliceblue;
+}
